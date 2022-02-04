@@ -17,7 +17,7 @@ function FahrenheitCentigrados ()
 
     resultado = (temperatura - 32) / 1.8000;
     
-    alert(temperatura + " Fahrenheit son " + resultado " centigrados");
+    alert(temperatura + " Fahrenheit son " + resultado + " centigrados");
 }
 
 function CentigradosFahrenheit () 
@@ -31,6 +31,6 @@ function CentigradosFahrenheit ()
 
     resultado = (temperatura * 1.8000) + 32;
     
-    alert(temperatura + " Centigrados son " + resultado " Fahrenheit");
+    alert(temperatura + " Centigrados son " + resultado + " Fahrenheit");
 }
 
