@@ -1,8 +1,19 @@
+/*
+
+Damonte Alejo DIV g
+
+ejercicio 7 instruccion IF
+*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
-	
+	let edad;
+	let estadoCivil
 
+	edad = document.getElementById("txtIdEdad").value;
+	estadoCivil = document.getElementById("estadoCivil").value;
 
+	if(edad < 18 && estadoCivil != "Soltero")
+	{
+		alert("Usted es muy pequeño para no ser soltero");
+	}
 }//FIN DE LA FUNCIÓN

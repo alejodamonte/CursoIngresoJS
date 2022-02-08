@@ -65,4 +65,5 @@ function PrecioFinal ()
     resultado = total + totalIva;
 
     alert("El resultado es " + resultado);
+    alert("alejo se la come")
 }

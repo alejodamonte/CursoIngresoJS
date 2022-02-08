@@ -1,6 +1,16 @@
+/*
+
+Damonte Alejo DIV g
+
+ejercicio 9 instruccion IF
+*/
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	let numeroAleatorio;
+
+	numeroAleatorio = Math.floor(Math.random()*10);
+
+	alert("Su numero es " + numeroAleatorio);
+
 
 }//FIN DE LA FUNCIÓN
